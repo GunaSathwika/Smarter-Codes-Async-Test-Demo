@@ -1,0 +1,43 @@
+# -------------------------
+# Python Cache / Build Files
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.cpython-*
+*.tmp
+
+# -------------------------
+# Virtual Environments
+# -------------------------
+venv/
+env/
+.venv/
+
+# -------------------------
+# Frontend Node Modules
+# -------------------------
+frontend/node_modules/
+frontend/.parcel-cache/
+frontend/dist/
+frontend/build/
+
+# -------------------------
+# Environment Variables / Secrets
+# -------------------------
+*.env
+.env.local
+.env.*.local
+
+# -------------------------
+# IDE / Editor Files
+# -------------------------
+.vscode/
+.idea/
+
+# -------------------------
+# OS Generated Files
+# -------------------------
+.DS_Store
+Thumbs.db
